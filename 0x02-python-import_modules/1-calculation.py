@@ -10,10 +10,10 @@ if __name__ == "__main__":
     print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
 
     # sub function call
-    print("{:d} + {:d} = {:d}".format(a, b, sub(a, b)))
+    print("{:d} - {:d} = {:d}".format(a, b, sub(a, b)))
 
     # mul function call
-    print("{:d} + {:d} = {:d}".format(a, b, mul(a, b)))
+    print("{:d} * {:d} = {:d}".format(a, b, mul(a, b)))
 
     # div function call
-    print("{:d} + {:d} = {:d}".format(a, b, div(a, b)))
+    print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
