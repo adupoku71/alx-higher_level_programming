@@ -7,5 +7,5 @@ def complex_delete(a_dictionary, value):
         if data == value:
             del a_dictionary[key]
 
-    return a_dictionary
+    return a_dictionary.copy()
 
